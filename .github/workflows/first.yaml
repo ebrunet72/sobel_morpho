@@ -15,5 +15,5 @@ jobs:
         ./CMakeGCC.sh
         cmake ./bin/make/
         find .
-        ./release/Sobel
+        ./bin/make/Release
 
