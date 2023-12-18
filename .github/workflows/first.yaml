@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: step1
       run: |
-	cd ../../
+        cd ../../
         git fetch 
         ./CMakeGCC.sh
