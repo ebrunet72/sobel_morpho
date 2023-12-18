@@ -13,4 +13,4 @@ jobs:
       run: |
         sudo apt install libsdl2-dev libsdl2-ttf-dev
         ./CMakeGCC.sh
-        ls ./bin/
+        ls ./bin/make/
