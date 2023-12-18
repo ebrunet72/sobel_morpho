@@ -10,10 +10,12 @@ jobs:
     - name: step0
       uses: actions/checkout@v4
     - name: step1
+      run: sudo apt install libsdl2-dev libsdl2-ttf-dev
+    - name: step2
+      run: ./CMakeGCC.sh
+    - name: step3
       run: |
-        sudo apt install libsdl2-dev libsdl2-ttf-dev
-        ./CMakeGCC.sh
-        cmake ./bin/make/
-        find .
-        ./bin/make/Release
+        cd ./bin/make/
+        make
+        
 
