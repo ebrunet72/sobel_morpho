@@ -17,5 +17,7 @@ jobs:
       run: |
         cd ./bin/make/
         make
+    - name: step4
+      run: ./Release/sobel
         
 
